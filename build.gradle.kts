@@ -1,5 +1,8 @@
 plugins {
-    kotlin("jvm") version "2.0.0"
+    kotlin("jvm") version "1.9.24"
+    kotlin("plugin.spring") version "1.9.24"
+    id("org.springframework.boot") version "3.2.5"
+    id("io.spring.dependency-management") version "1.1.5"
 }
 
 group = "org.example"
@@ -10,6 +13,9 @@ repositories {
 }
 
 dependencies {
+    implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
     testImplementation(kotlin("test"))
 }
 
