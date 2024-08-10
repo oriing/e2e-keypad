@@ -2,7 +2,7 @@ package bob.pjs.e2e.controller
 
 data class KeypadButton(
     val hashData:   String,
-    val imageData:  ByteArray,
+    val imageData:  String,
     val answer:     Int
 ) {
     override fun equals(other: Any?): Boolean {

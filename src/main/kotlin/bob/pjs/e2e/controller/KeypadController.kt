@@ -5,11 +5,17 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-@RequestMapping("/key_create")
-class KeypadController(private val KeypadGenerator: KeypadGenerator) {
+@RequestMapping("/api/create_key")
+class KeypadController(private val KeypadGenerator: KeypadGenerator = KeypadGenerator()) {
 
     @GetMapping
-    fun createKeypad(): List<KeypadButton> {
-        return KeypadGenerator.generate()
+    fun createKeypad(): List<KeypadReturn> {
+        val buttonList = KeypadGenerator.generate()
+        var returnList = mutableListOf<KeypadReturn>()
+
+        for (button in buttonList) {
+            returnList.add(KeypadReturn(button.hashData, button.imageData))
+        }
+        return returnList
     }
 }
