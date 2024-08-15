@@ -3,8 +3,8 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/api/:path*',
-        destination: 'http://localhost:8080/api/:path*'
+        source: '/api/create_key',
+        destination: 'http://localhost:8080/api/create_key'
       },
     ]
   },
