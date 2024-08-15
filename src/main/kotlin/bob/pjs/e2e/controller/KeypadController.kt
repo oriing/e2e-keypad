@@ -1,5 +1,6 @@
 package bob.pjs.e2e.controller
 
+import org.springframework.web.bind.annotation.CrossOrigin
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController
 class KeypadController(private val KeypadGenerator: KeypadGenerator = KeypadGenerator()) {
 
     @GetMapping
+    @CrossOrigin(origins = ["http://localhost:3000"])
     fun createKeypad(): List<KeypadReturn> {
         val buttonList = KeypadGenerator.generate()
         var returnList = mutableListOf<KeypadReturn>()

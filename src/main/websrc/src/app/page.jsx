@@ -8,7 +8,9 @@ import KeypadUserInput from "../components/KeypadUserInput.jsx";
 export default function Page() {
   const { states, actions } = useSecureKeypad();
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+      actions.getSecureKeypad();
+  }, []);
 
   if (states.keypad === null) {
     return (
