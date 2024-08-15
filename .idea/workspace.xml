@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15f59210-dc5d-4607-abc3-8043e75d3c2c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/bob/pjs/e2e/controller/KeypadReturn.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/_blank.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/bob/pjs/e2e/controller/KeypadButton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/bob/pjs/e2e/controller/KeypadButton.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/bob/pjs/e2e/controller/KeypadController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/bob/pjs/e2e/controller/KeypadController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/bob/pjs/e2e/controller/KeypadGenerator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/bob/pjs/e2e/controller/KeypadGenerator.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +58,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/BOB/TrackStudy/Java/e2e-keypad/src/main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -91,6 +76,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BOB\TrackStudy\Java\e2e-keypad\src\main" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\BOB\TrackStudy\Java\e2e-keypad\src\main\resources" />
     </key>
@@ -117,7 +105,8 @@
       <workItem from="1721455396360" duration="2521000" />
       <workItem from="1722284365497" duration="212000" />
       <workItem from="1722284592236" duration="2895000" />
-      <workItem from="1723266522203" duration="3061000" />
+      <workItem from="1723266522203" duration="4586000" />
+      <workItem from="1723725726634" duration="1037000" />
     </task>
     <servers />
   </component>
